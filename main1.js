@@ -33,7 +33,7 @@ function result() {
     newStory = newStory.replace('梅子',name);
   }
 
-  if(document.getElementById("US").checked) {
+  if(document.getElementById("us").checked) {
     const price = Math.round(1) + ' 000万ドル';
     const temperature = '華氏 '+ Math.round((94-32) * 5 / 9) + ' 度';
     newStory = newStory.replace('摂氏-1度',temperature);
