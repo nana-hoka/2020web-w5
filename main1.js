@@ -8,6 +8,7 @@ function randomValueFromArray(array){
 }
 
 let storyText = '気温 摂氏-1度で外は寒かった。この日は:insertx:のライブが:inserty:であった。:insertx:のファンの友達に誘われて来ていた梅子は、たまたま隣の席にいた年俸5000万ドルの野球選手に夢中だった。';
+let insertX = ['嵐','back number','Perfume','ゆず','NiziU']];
 let insertY = ['東京ドーム','日本武道館','国立競技場'];
 
 
