@@ -37,7 +37,7 @@ function result() {
     const price = Math.round(1) + ' 億円';
     const temperature = '華氏 '+ Math.round((94-32) * 5 / 9) + ' 度';
     newStory = newStory.replace('摂氏-1度',temperature);
-    newStory = newStory.replace('410万ドル',price);
+    newStory = newStory.replace('5000万ドル',price);
   }
 
   story.textContent = newStory;
