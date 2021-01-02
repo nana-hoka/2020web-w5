@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = '気温 摂氏-1度で外は寒かった。この日は:insertx:のライブが:inserty:であった。ファンの友達に誘われて来ていた梅子は:insertx:にはあまり興味がなかった。梅子はスポーツ全般に興味を持っていて、この日のライブに来たのも:inserty:に行ってみたかったからだ。そんな梅子に驚く出来事が！！それは、たまたま隣の席に年俸5000万ドルのプロ:insertz:選手がいた。梅子はライブどころではなかった。';
+let storyText = '気温 摂氏-1度で外は寒かった。この日は:insertx:のライブが:inserty:であった。ファンの友達に誘われて来ていた梅子は:insertx:にはあまり興味がなかった。梅子はスポーツ全般に興味を持っていて、この日のライブに来たのも:inserty:に行ってみたかったからだ。そんな梅子に驚く出来事が！！それは、たまたま隣の席に年俸5億円のプロ:insertz:選手がいた。梅子はライブどころではなかった。';
 let insertX = ['嵐','back number','Perfume','ゆず','NiziU'];
 let insertY = ['東京ドーム','国立競技場'];
 let insertZ = ['野球','サッカー','バスケットボール','卓球','ゴルフ'];
@@ -33,8 +33,8 @@ function result() {
     newStory = newStory.replace('梅子',name);
   }
 
-  if(document.getElementById("日本").checked) {
-    const price = Math.round(1) + ' 億円';
+  if(document.getElementById("US").checked) {
+    const price = Math.round(1) + ' 000万ドル';
     const temperature = '華氏 '+ Math.round((94-32) * 5 / 9) + ' 度';
     newStory = newStory.replace('摂氏-1度',temperature);
     newStory = newStory.replace('5000万ドル',price);
