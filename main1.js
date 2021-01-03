@@ -31,6 +31,9 @@ function result() {
   if(customName.value !== '') {
     const name = customName.value;
     newStory = newStory.replace('梅子',name);
+    newStory = newStory.replace('梅子',name);
+    newStory = newStory.replace('梅子',name);
+    newStory = newStory.replace('梅子',name);
   }
 
   if(document.getElementById("us").checked) {
