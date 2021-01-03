@@ -37,7 +37,7 @@ function result() {
   }
 
   if(document.getElementById("us").checked) {
-    const price = Math.round(1) + '000万ドル';
+    const price = Math.random() + '000万ドル';
     const temperature = '華氏 '+ Math.round((94-32) * 5 / 9) + ' 度';
     newStory = newStory.replace('摂氏-1度',temperature);
     newStory = newStory.replace('5億円',price);
